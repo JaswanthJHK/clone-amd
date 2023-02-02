@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="style.css/style.css">
   <title>AMD</title>
 </head>
-<body style="padding-bottom: 1300px;">
+<body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary py-0 ">
-  <div class="nav-div container-fluid  bg-dark">
+  <div class="nav-div container-fluid  bg-black">
     <!-- <a class="navbar-brand text-light" href="#">amd</a> -->
     <img class="nav-logo" src="images/amd-header-logo.svg" alt="">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form> -->
-      <div class=" nav-last bg-white w">
+      <div class=" nav-last bg-white ">
         <img class="glob-img" src="images/icons8-geography-48.png" alt="">
         
       </div>
@@ -55,21 +55,21 @@
 
 <!-- ----video section---- -->
 <div class="container-fluid m-0 p-0">
-  <div  class="row">
+  
+    <div class="vedio-div">
    <video  preload="none" style autoplay loop muted ="muted">
      <source  src="https://download.amd.com/video/ces-homepage-1920x600.mp4">
    </video>
+   <div class="video-description">
+    <p class="headline">together we advance</p>
+    <p>Learn how AMD is powering next-generation experiences and pushing the limits of 
+     innovation to tackle some of the world’s toughest challenges. Watch the replay of 
+     the 2023 CES Keynote delivered by AMD Chair and CEO, Dr. Lisa Su­</p>
+     <button class="btn btn-outline-light rounded-0 mt-4 border-3 fw-bold px-5">Learn more</button>
+   </div>
   </div>
 
-  <div class="video-des-div">
-    <div class="video-description">
-     <p>together we advance</p>
-     <p>Learn how AMD is powering next-generation experiences and pushing the limits of 
-      innovation to tackle some of the world’s toughest challenges. Watch the replay of 
-      the 2023 CES Keynote delivered by AMD Chair and CEO, Dr. Lisa Su­</p>
-
-    </div>
-</div>
+   
 </div>
 
 
@@ -77,37 +77,37 @@
 
 
 <!-- ----- card section ----- -->
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-4 mt-5">
-      <div class="card border-0" style="width: 27rem; ">
+    <div class="col-12 col-md-4 mt-5">
+      <div class="card border-0"  >
         <img src="images/image-one.png" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body card-set">
           <h5 class="card-title">Change How You Game</h5>
-          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-          <a href="">AMD Ryzen &trade; 7000 Series Desktop Processors</a>
-          <a href="#" class="btn btn-outline-dark rounded-0 mt-5 border-2 fw-bold px-4">FIND RETAILERS</a>
+          <p class="card-text"><a href="">AMD Ryzen &trade; 7000 Series Desktop Processors</a></p>
+          <button class="btn btn-outline-dark rounded-0 mt-3 border-2 fw-bold px-4">FIND RETAILERS</button>
         </div>
       </div>
     </div>
-    <div class="col-4 mt-5">
-      <div class="card border-0" style="width: 27rem;">
+    <div class="col-md-4 col-12  mt-5">
+      <div class="card border-0" >
         <img src="images/image-two.png" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body card-set">
           <h5 class="card-title">Play It All with Ryzen &trade; and Radeon &trade;</h5>
           <p class="card-text">Browse preconfigured systems from our partners.</p>
-          <a href="#" class="btn btn-outline-dark rounded-0 mt-4 border-2 fw-bold px-4">LEARN MORE</a>
+          <button class="btn btn-outline-dark rounded-0 mt-3 border-2 fw-bold px-4">Learn More</button>
+
         </div>
       </div>
     </div>
-    <div  class="col-4 mt-5 ">
-      <div  class="card border-0" style="width: 27rem;">
+    <div  class="col-12 col-md-4 mt-5 ">
+      <div  class="card border-0" >
         <img src="images/image-three.png" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body card-set">
           <h5 class="card-title">Breakthrough Performance</h5>
-          <!-- <p class="card-text">AMD Radeon &trade; RX 7000 Series graphics cards</p> -->
-          <a href="">AMD Radeon &trade; RX 7000 Series graphics cards</a>
-          <a href="#" class="btn btn-outline-dark rounded-0 mt-5 border-2 fw-bold px-4">FIND RETAILERS</a>
+          <p class="card-text"><a href="">AMD Radeon &trade; RX 7000 Series graphics cards</a> </p>
+          <button class="btn btn-outline-dark rounded-0 mt-3 border-2 fw-bold px-4">FIND RETAILERS</button>
+
         </div>
       </div>
     </div>
@@ -116,15 +116,231 @@
 <!-- ----card section end---- -->
 
 <!-- ----middle image---- -->
-<div class="container-fluid">
+<div class="container-fluid" style="box-sizing: content-box;">
   <div class="row">
-      <img class="middle-image" src="images/image-four.jpg" alt="">
-      
+      <img style="height: 340px;" class="middle-image" src="images/image-four.jpg" alt="">
+      <div class="board">
+        <div style="padding-top: 40px;">
+        <span ><h2> Together we advance</h2></span>
+        <h6>Google Cloud Confidential Computing, powered by AMD. World class security to advance business without sacrificing performance.</h6>
+        <button class="btn btn-outline-light rounded-0 mt-4 border-3 fw-bold px-5">Learn more</button>
+      </div>
+      </div>
+  </div>
+</div>
+
+<!-- ----------------------------------- -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img class="img-fluid mt-4" src="images/image-five.jpg" alt="">
+      <div class="content">
+        <h4>Meet 4th Gen AMD EPYC&trade; Server Processors</h4>
+        <h5>See how AMD EPYC&trade; 9004 Series server processors are advancing enterprise data center performance and efficiency.</h5>
+
+        <button type="button" class="btn btn-outline-dark rounded-0 mt-4 border-2 fw-bold px-5 py-2">LEARN MORE</button>
+      </div>
+  </div>
+  <div class="col-md-6">
+    <img class="img-fluid mt-4" src="images/image-six.jpg" alt="">
+    <div class="content">
+      <h4>Bringing Exascale-Class Technologies to Mainstream HPC & AI</h4>
+      <h5>Introducing AMD Instinct&trade; MI210 Acclerator</h5>
+
+      <button type="button" class="btn btn-outline-dark rounded-0 mt-4 border-2 fw-bold px-5 py-2">LEARN MORE</button>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- ---- Final Image-section ---- -->
+
+<div class="container-fluid mt-3 ">
+  <div class="row bg-setup ">
+    <div class="bg-img">
+    <div class="col-sm-6 col-12 col-md-6 ">
+      <img class="final-image" src="images/image-eight.png" alt="">
+    </div>
+    <div class="col-sm-6 col-12  text-setup  text-white col-md-6">
+      <h2>The Most Advanced Graphics for Gamers & Creators</h2>
+      <p>Built on the groundbreaking AMD RDNA™ 3 architecture with chiplet technology, AMD Radeon™ RX 7900 Series graphics deliver next-generation performance, visuals, and efficiency.</p>
+    </div>
+  </div>
   </div>
 </div>
 
 
-  
+
+  <!-- footer -->
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-black text-white">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Subscribe to the latest news from AMD</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <!-- <i class="fab fa-facebook-f">fb</i> -->
+        <img src="images/facebook-32.png" alt="">
+        
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+        <img src="images/twitter-32.png" alt="">
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+        <img src="images/instagram-6-32.png" alt="">
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+        <img src="images/linkedin-32.png" alt="">
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+        <img src="images/youtube-3-32.png" alt="">
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <!-- <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company
+          </h6>
+          <p1>About</p>
+          <p1>Management Team</p>
+          <p1>Corporate responsibility</p>
+          <p1>Careers</p> -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Company
+            </h6>
+            <p1>
+              <a href="#!" class="text-reset">About AMD</a>
+            </p>
+            <p1>
+              <a href="#!" class="text-reset">Management Team</a>
+            </p>
+            <p1>
+              <a href="#!" class="text-reset">Corporate responsibility</a>
+            </p>
+            <p1>
+              <a href="#!" class="text-reset">Careers</a>
+            </p>
+
+           
+
+            
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            News & events
+          </h6>
+          <p1>
+            <a href="#!" class="text-reset">Newsroom</a>
+          </p>
+          <p1>
+            <a href="#!" class="text-reset">Events</a>
+          </p>
+          <p1>
+            <a href="#!" class="text-reset">Media Library</a>
+          </p>
+         
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Community
+          </h6>
+          <p1>
+            <a href="#!" class="text-reset">Support</a>
+          </p>
+          <p1>
+            <a href="#!" class="text-reset">Developer</a>
+          </p>
+          <p1>
+            <a href="#!" class="text-reset">Red Team</a>
+          </p>
+          
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Partners</h6>
+          <p1>
+            <a href="#!" class="text-reset">AMD Partner hub</a>
+          </p>
+          <p1>
+            <a href="#!" class="text-reset">Partner resource library</a>
+          </p>
+          <p1>
+            <a href="#!" class="text-reset">Autherised distributers</a>
+          </p>
+         
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Investors
+          </h6>
+          <p1>
+            <a href="#!" class="text-reset">Investor Relation</a>
+          </p>
+          <p1>
+            <a href="#!" class="text-reset">Financial Information</a>
+          </p>
+          <p1>
+            <a href="#!" class="text-reset">Board of Direction</a>
+          </p>
+          <p1>
+            <a href="#!" class="text-reset">Governance Document</a>
+          </p>
+          
+        </div>
+
+
+
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
   <!-- Bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 
